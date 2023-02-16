@@ -2,9 +2,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/cesium/Build/Cesium/Widgets/widgets.css" />
   </head>
-  <body>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, magnam?</div>
+  <body style="margin: 0">
+    <div id="c"></div>
     <script type="importmap">
       {
         "imports": {
@@ -13,5 +14,6 @@
       }
     </script>
     <script type="module" src="./src/index.js"></script>
+    <script type="module" src="./src/init.js"></script>
   </body>
 </html>
